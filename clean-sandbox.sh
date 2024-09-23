@@ -15,5 +15,6 @@ ${command[*]} -pageid:40294 -text:"{{ZDP}}" -family:wikiquote -lang:es -delay:15
 ${command[*]} -pageid:129470,166832,129475,129476,129477 -text:"<!--No borres este mensaje-->{{Zona de pruebas}}<!--Haz las pruebas debajo. Gracias-->" -family:wikisource -lang:es -delay:15 -summary:"Bot: limpieza automática de la zona de pruebas"
 ${command[*]} -pageid:5856 -text:"{{/encabezado}}<!-- REALIZA TUS PRUEBAS DEBAJO DE ESTA LÍNEA -->" -family:wikiversity -lang:es -delay:15 -summary:"Bot: limpieza automática de la zona de pruebas"
 ${command[*]} -pageid:1805,1806,1807,1808,1809,1814,1813,1812,1811,1810 -text:"{{sust:Usuario:MABot/ZDP}}" -site:wikivoyage:es -delay:15 -summary:"Bot: limpieza automática de la zona de pruebas"
-${command[*]} -pageid:9605,89066 -text:"<!--No borres este mensaje-->{{Titular-zdp}}<!--Haz las pruebas debajo. Gracias-->" -family:wiktionary -lang:es -delay:15 -summary:"Bot: limpieza automática de la zona de pruebas"
+${command[*]} -pageid:9605 -text:"<!--No borres este mensaje-->{{cabecera zona de pruebas}}<!--Haz las pruebas debajo. Gracias-->" -site:wiktionary:es -delay:15 -summary:"Bot: limpieza automática de la zona de pruebas"
+${command[*]} -pageid:89066 -text:"<!--No borres este mensaje-->{{cabecera zona de pruebas/2}}<!--Haz las pruebas debajo. Gracias-->" -site:wiktionary:es -delay:15 -summary:"Bot: limpieza automática de la zona de pruebas"
 echo -e "\nSandbox clearing script finished at $(date)."
